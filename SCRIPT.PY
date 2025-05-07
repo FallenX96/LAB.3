@@ -1,0 +1,1 @@
+PRINT ("Salut, GitHub Actions!")

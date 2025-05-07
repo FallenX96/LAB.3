@@ -1,0 +1,17 @@
+name: Phyton verificare aplicatie
+on:
+  Push:
+     Branches: [main]
+jobs:
+   Build: 
+     Runs-on: ubuntu-latest 
+     Steps:
+       -uses: actions/chechout@v4
+       -name: Setam phyton 
+       uses: actions/setup-python@v5
+       with: 
+         python-version '3.x'
+       -name: Executa aplicatia
+   run: python script.py 
+
+  
