@@ -12,6 +12,6 @@ jobs:
        with: 
          python-version '3.x'
        -name: Executa aplicatia
-   run: pyton script.py 
+   run: python script.py 
 
   
